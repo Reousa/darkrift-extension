@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\darkrift2\DarkRift.Client\DarkRift.Client.csproj" />
+    <ProjectReference Include="..\darkrift2\DarkRift.Server\DarkRift.Server.csproj" />
+    <ProjectReference Include="..\darkrift2\DarkRift\DarkRift.csproj" />
+  </ItemGroup>
+
+</Project>
