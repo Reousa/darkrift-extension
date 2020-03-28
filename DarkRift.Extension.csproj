@@ -3,6 +3,10 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netcoreapp2.2</TargetFrameworks>
     <LangVersion>latest</LangVersion>
+    <PackageId>DarkRift.Extension</PackageId>
+    <Authors>Karim Rizk</Authors>
+    <PackageProjectUrl>https://github.com/Reousa/darkrift-extension</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Reousa/darkrift-extension</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
